@@ -37,7 +37,7 @@
 
 class Solution:
     def twoSum(self, numbers: list[int], target: int) -> list[int]:
-        """O(lgn)"""
+        """O(n)"""
 
         if len(numbers) == 2:
             return [1, 2]
