@@ -1,5 +1,9 @@
 class Solution:
     def longestConsecutive(self, nums: list[int]) -> int:
+        """
+        O(n) time complexity
+        O(n) space complexity
+        """
 
         starting_points, hash_set = [], set(nums)
 
@@ -23,6 +27,10 @@ class Solution:
 
 class Optimized:
     def longestConsecutive(self, nums: list[int]) -> int:
+        """
+        O(n) time complexity
+        O(n) space complexity
+        """
 
         max_seq, hash_set = 0, set(nums)
         for element in hash_set:
