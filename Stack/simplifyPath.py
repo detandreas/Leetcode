@@ -1,5 +1,3 @@
-from collections import deque
-
 class Solution:
     def simplifyPath(self, path: str) -> str:
 
